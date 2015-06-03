@@ -1,0 +1,3 @@
+autoCache = 0
+autoUpdate = 0
+autoRemove = 0
