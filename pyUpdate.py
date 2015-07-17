@@ -50,7 +50,7 @@ if data.autoUpdate == 1:
 
 if data.autoRemove == 0:
     while not remAuto == "y" or not remAuto == "n":
-        remAuto = input("Remove automatically install packages? (Recommended) y/n")
+        remAuto = input("Remove automatically installed packages? (Recommended) y/n")
     if remAuto == "y":
         do("clear")
         do("sudo apt-get autoremove")
