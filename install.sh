@@ -16,6 +16,7 @@ cd $HOME
 mkdir .pyUpdate
 cd pyUpdate
 mv updaterConfig.txt $HOME/.pyUpdate/updaterConfig.txt
+cd $HOME
 rm .gitignore
 cd $HOME
 rm -rf pyUpdate-master
