@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $HOME
+
 # Resolve dependencies
 sudo apt-get update
 sudo apt-get install python3 git
@@ -12,7 +14,7 @@ rm install.sh
 rm readme.md
 cd $HOME
 mkdir .pyUpdate
-cd pyUpdate-master
+cd pyUpdate
 mv updaterConfig.txt $HOME/.pyUpdate/updaterConfig.txt
 rm .gitignore
 cd $HOME
